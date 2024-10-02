@@ -1,0 +1,18 @@
+.app__container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Full viewport height */
+}
+
+.app__navbar-wrapper {
+  width: 200px; /* Set the width of the navbar */
+  flex-shrink: 0; /* Prevent the navbar from shrinking */
+  background-color: #209536;
+  color: white;
+}
+
+.app__content {
+  flex-grow: 1; /* The content will take up the remaining space */
+  padding: 20px; /* Add padding to content */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
