@@ -1,12 +1,14 @@
 import React from 'react';
 import NavBar from './components/NavBar/NavBar';
-import Overview from './general/Overview/Overview';
+import { Over } from './pages';
+
+
 
 
 const App = () => (
     <div>
         <NavBar/>
-        <Overview/>
+        <Over/>
        
     </div>
 );

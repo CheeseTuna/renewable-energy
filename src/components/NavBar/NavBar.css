@@ -5,10 +5,13 @@
   max-width: 200px;
   min-height: 700px;
   height: 100vh;
-  display: block;
+  display: flex;
   padding: 1rem 0;
   justify-content: space-between;
   margin: 0;
+  width: 100%;
+  position: top-left;
+  z-index: 1000;
 }
 
 body,
@@ -21,6 +24,7 @@ html,
 .app__navbar {
   padding-top: 20px;
   padding-left: 20px;
+  height: 100vh;
 }
 
 .app__navbar a:hover {
