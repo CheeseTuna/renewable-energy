@@ -5,7 +5,7 @@ const Over = () => {
   return (
     <div className="app__main-wrapper">
       <div className="app__header">
-        <h1>Hello</h1>
+        <h1>Good Morning!</h1>
       </div>
     </div>
   );

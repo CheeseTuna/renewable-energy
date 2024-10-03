@@ -2,12 +2,13 @@
   background-color: #209536;
   color: #fff;
   list-style-type: none;
-  min-height: 100vh; /* Ensure the navbar takes up the full height */
+  min-height: 100vh;
   padding: 1rem;
-  position: fixed; /* Fix the navbar in place */
+  position: fixed;
   top: 0;
   left: 0;
   width: 200px;
+  display: flex;
 }
 
 .app__navbar a:hover {
